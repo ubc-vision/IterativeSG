@@ -51,8 +51,8 @@ def scenegraph_inference_on_dataset(cfg, model, data_loader, evaluator):
                 start_time = time.perf_counter()
                 total_compute_time = 0
 
-            if len(inputs[0]['instances']) > 40:
-                continue
+    #        if len(inputs[0]['instances']) > 40:
+    #           continue
             start_compute_time = time.perf_counter()
             
             outputs = model(inputs)
