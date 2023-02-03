@@ -1,6 +1,6 @@
 # Iterative Scene Graph Generation
 
-This is the code for our paper titled "Iterative Scene Graph Generation".
+This is the code for our paper titled ["Iterative Scene Graph Generation"](https://openreview.net/pdf?id=i0FnLiIRj6U).
 
 ## Requirements
 The following packages are needed to run the code.
